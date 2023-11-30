@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: 17px;
+    background-image: url(./img.jpg/zadn2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+header h1{
+     color: #f6eeee;
+     font-family: 'Playfair Display', serif;
+}
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: darkgrey;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    /* color: chocolate;
+    color: #fff;
+    transform: scaleY(1);
+    opacity: 1; */
+    border-bottom: 0px;
+    color: #f6eeee;
+}
+
+nav a:first-child a {
+    border-left: 10px solid #3498db;
+}
+
+nav a:nth-child(2) a {
+    border-left: 10px solid #ffd071;
+}
+
+nav a:nth-child(3) a {
+    border-left: 10px solid #f0776c;
+}
+
+nav a:last-child a {
+    border-left: 10px solid #1abc9c
+}

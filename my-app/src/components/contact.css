@@ -1,0 +1,11 @@
+.const img{
+    background-color: #a00b0b;
+}
+.const p{
+    font-weight: 800;
+    color: #f7ecec;
+    font-style: oblique;
+}
+.const{
+    background-image:url(./img.jpg/zadnuy.jpg);
+}

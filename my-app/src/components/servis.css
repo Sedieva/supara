@@ -1,0 +1,32 @@
+.container h1{
+    color: rgb(242, 239, 239);
+    box-shadow: 0 0 10px 5px black,
+    40px -30px 15px rgb(248, 253, 248),
+    40px 30px 50px rgb(247, 246, 246),
+   -40px 30px 15px rgb(239, 239, 233),
+   -40px -30px 50px rgb(154, 154, 156);
+}
+.container p{
+    color: aliceblue;
+}
+.servis-img img{
+
+    /* width: 450px;
+    height: 450px; */
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    width: 400px; 
+    height: 400px;
+    float: left; 
+    margin: 0 0 0 3.5%; 
+    /* background: #f0f0f0;  */
+    border-radius: 5px; 
+    background-image: url(./img.jpg/zadnuy.jpg);
+
+   
+}
+.container{
+    background-image: url(./img.jpg/zadnuy.jpg);
+    margin: 0 auto;
+}

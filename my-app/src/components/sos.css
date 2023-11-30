@@ -1,0 +1,30 @@
+.container2{
+    display: flex;
+    background-image: url(./img.jpg/zadnuy.jpg);
+    background-position: 0%;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.photo img{
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+.container2:hover{
+    box-shadow: 30px 10px 30px rgba(20, 1, 25, 0.9);
+    transition: .10s ease-in-out;
+}
+.container22 h1:hover{
+   display: block;
+}
+.container2 p{
+      color: rgb(235, 235, 244);
+}

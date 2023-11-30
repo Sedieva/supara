@@ -1,0 +1,18 @@
+.contaner h1{
+    box-shadow: 0 0 10px 5px black,
+    40px -30px 15px rgb(248, 253, 248),
+    40px 30px 50px rgb(94, 92, 92),
+   -40px 30px 15px rgb(239, 239, 233),
+   -40px -30px 50px rgb(154, 154, 156);
+   color: aliceblue;
+}
+.contaner p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    color: aliceblue;
+}
+.contaner{
+    background-image: url(./img.jpg/zadnuy.jpg);
+
+}

@@ -1,0 +1,25 @@
+.plex h1 {
+    color: rgb(250, 247, 247);
+}
+
+.p1{
+    font-style: italic;
+    font-weight: 900;
+    width: 300px;
+    color: #eceaea;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(189, 189, 103);
+    border-top-right-radius: 10px 10px;
+  
+}
+.p{
+    color: rgb(253, 248, 248);
+}
+.container1{
+    background-image: url(./img.jpg/zadnuy.jpg);
+    /* filter: blur(10px);
+    z-index: -1; */
+    background-size: cover;
+    background-position: center;
+}
